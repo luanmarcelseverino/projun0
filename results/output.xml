@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-20T13:15:47.997607" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Venda Saucedemo" source="C:\Users\Luan PC Home\Documents\Workspace\ProJun0\test_venda_saucedemo.robot">
+<test id="s1-t1" name="Fluxo de Compra com Sucesso" line="12">
+<kw name="Abrir Site SauceDemo">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-20T13:15:50.041895" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Luan PC Home\\Documents\\Workspace\\ProJun0\\results\\browser\\traces\\temp\\4a34439c-8a72-415f-a02b-8ee4fec4989a"}</msg>
+<msg time="2026-03-20T13:15:50.203274" level="INFO">Starting Browser process C:\Users\Luan PC Home\Documents\Workspace\ProJun0\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:56988</msg>
+<msg time="2026-03-20T13:16:07.558800" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Luan PC Home\\Documents\\Workspace\\ProJun0\\results\\browser\\traces\\temp\\4a34439c-8a72-415f-a02b-8ee4fec4989a"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-20T13:15:50.039490" elapsed="17.519749"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-20T13:16:16.334431" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
+<msg time="2026-03-20T13:16:16.334630" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-20T13:16:07.559833" elapsed="8.775239"/>
+</kw>
+<status status="PASS" start="2026-03-20T13:15:50.036360" elapsed="26.299106"/>
+</kw>
+<kw name="Realizar Login">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-20T13:16:16.339705" level="INFO">Fills the text 'standard_user' in the given field.</msg>
+<arg>css=#user-name</arg>
+<arg>${username}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T13:16:16.337956" elapsed="0.119935"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-20T13:16:16.460066" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
+<arg>css=#password</arg>
+<arg>${pass}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T13:16:16.458452" elapsed="0.031133"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-20T13:16:16.491633" level="INFO">Clicks the element 'css=#login-button'.</msg>
+<arg>css=#login-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T13:16:16.490038" elapsed="1.833050"/>
+</kw>
+<arg>${USER}</arg>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2026-03-20T13:16:16.336403" elapsed="1.987070"/>
+</kw>
+<kw name="Adicionar Item Ao Carrinho">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-20T13:16:18.326769" level="INFO">Clicks the element 'css=#add-to-cart-sauce-labs-backpack'.</msg>
+<arg>css=#add-to-cart-sauce-labs-backpack</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T13:16:18.325411" elapsed="0.192302"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-20T13:16:18.519889" level="INFO">Clicks the element 'css=.shopping_cart_link'.</msg>
+<arg>css=.shopping_cart_link</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T13:16:18.518253" elapsed="0.112975"/>
+</kw>
+<status status="PASS" start="2026-03-20T13:16:18.324398" elapsed="0.307201"/>
+</kw>
+<kw name="Verificar Item No Carrinho">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-20T13:16:18.713094" level="INFO">Text: 'Sauce Labs Backpack'</msg>
+<arg>css=.inventory_item_name</arg>
+<arg>contains</arg>
+<arg>${nome_esperado}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-20T13:16:18.633571" elapsed="0.079847"/>
+</kw>
+<arg>${PRODUTO}</arg>
+<status status="PASS" start="2026-03-20T13:16:18.632331" elapsed="0.081433"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser" type="TEARDOWN">
+<msg time="2026-03-20T13:16:18.900535" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2026-03-20T13:16:18.715371" elapsed="0.185597"/>
+</kw>
+<msg time="2026-03-20T13:16:18.937253" level="INFO">Switching context to context=0fa6ca57-b746-4de4-9be0-73c5d69fcc9c in CURRENT</msg>
+<msg time="2026-03-20T13:16:18.952602" level="INFO">Successfully changed active context: context=0fa6ca57-b746-4de4-9be0-73c5d69fcc9c</msg>
+<msg time="2026-03-20T13:16:18.987778" level="INFO">Successfully closed Context</msg>
+<doc>Valida o login e a inclusão de item no carrinho.</doc>
+<status status="PASS" start="2026-03-20T13:15:50.033831" elapsed="28.867646"/>
+</test>
+<doc>Projeto de Automação E2E - Nível Júnior</doc>
+<status status="PASS" start="2026-03-20T13:15:48.002046" elapsed="30.988047"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Venda Saucedemo" id="s1" pass="1" fail="0" skip="0">Test Venda Saucedemo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

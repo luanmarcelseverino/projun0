@@ -1,0 +1,52 @@
+{"level":30,"time":"2026-03-20T16:15:57.841Z","pid":11568,"hostname":"LuanPChome","msg":"Listening on 127.0.0.1:56988"}
+{"level":30,"time":"2026-03-20T16:15:58.376Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-20T16:16:07.368Z","pid":11568,"hostname":"LuanPChome","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-03-20T16:16:07.482Z","pid":11568,"hostname":"LuanPChome","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-20T16:16:07.482Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-20T16:16:07.566Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-20T16:16:07.609Z","pid":11568,"hostname":"LuanPChome","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4fbed85d59c8be03e6ff1d289a13ad70\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=a325fdf9-9e37-43d0-8378-866b46df24af\"}"}
+{"level":30,"time":"2026-03-20T16:16:07.685Z","pid":11568,"hostname":"LuanPChome","msg":"Setting default timeout for context context=0fa6ca57-b746-4de4-9be0-73c5d69fcc9c to 10000"}
+{"level":30,"time":"2026-03-20T16:16:07.686Z","pid":11568,"hostname":"LuanPChome","msg":"Changed active context: context=0fa6ca57-b746-4de4-9be0-73c5d69fcc9c"}
+{"level":30,"time":"2026-03-20T16:16:10.138Z","pid":11568,"hostname":"LuanPChome","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-20T16:16:10.139Z","pid":11568,"hostname":"LuanPChome","msg":"Changed active page"}
+{"level":30,"time":"2026-03-20T16:16:16.328Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-20T16:16:16.344Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T16:16:16.345Z","pid":11568,"hostname":"LuanPChome","msg":"Strict mode is enabled, find Locator with css=#user-name in page."}
+{"level":30,"time":"2026-03-20T16:16:16.453Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T16:16:16.463Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-20T16:16:16.463Z","pid":11568,"hostname":"LuanPChome","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2026-03-20T16:16:16.486Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-20T16:16:16.495Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-20T16:16:16.496Z","pid":11568,"hostname":"LuanPChome","msg":"Strict mode is enabled, find Locator with css=#login-button in page."}
+{"level":30,"time":"2026-03-20T16:16:18.320Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method click"}
+{"level":30,"time":"2026-03-20T16:16:18.329Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-20T16:16:18.329Z","pid":11568,"hostname":"LuanPChome","msg":"Strict mode is enabled, find Locator with css=#add-to-cart-sauce-labs-backpack in page."}
+{"level":30,"time":"2026-03-20T16:16:18.514Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method click"}
+{"level":30,"time":"2026-03-20T16:16:18.523Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-20T16:16:18.523Z","pid":11568,"hostname":"LuanPChome","msg":"Strict mode is enabled, find Locator with css=.shopping_cart_link in page."}
+{"level":30,"time":"2026-03-20T16:16:18.628Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method click"}
+{"level":30,"time":"2026-03-20T16:16:18.638Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-20T16:16:18.639Z","pid":11568,"hostname":"LuanPChome","msg":"Strict mode is enabled, find Locator with css=.inventory_item_name in page."}
+{"level":30,"time":"2026-03-20T16:16:18.710Z","pid":11568,"hostname":"LuanPChome","msg":"Retrieved text for element css=.inventory_item_name containing Sauce Labs Backpack"}
+{"level":30,"time":"2026-03-20T16:16:18.710Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-20T16:16:18.725Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-03-20T16:16:18.726Z","pid":11568,"hostname":"LuanPChome","Take screenshot with options: ":{"path":"C:\\Users\\Luan PC Home\\Documents\\Workspace\\ProJun0\\results\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2026-03-20T16:16:18.897Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-03-20T16:16:18.910Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.916Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.920Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.925Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.929Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.934Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.939Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.943Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.948Z","pid":11568,"hostname":"LuanPChome","msg":"Changed active context: context=0fa6ca57-b746-4de4-9be0-73c5d69fcc9c"}
+{"level":30,"time":"2026-03-20T16:16:18.948Z","pid":11568,"hostname":"LuanPChome","msg":"Changing current active page: page=6d2c7a33-8271-4b2a-9c68-848d4babd683"}
+{"level":30,"time":"2026-03-20T16:16:18.948Z","pid":11568,"hostname":"LuanPChome","msg":"Changed active page"}
+{"level":30,"time":"2026-03-20T16:16:18.954Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-20T16:16:18.974Z","pid":11568,"hostname":"LuanPChome","msg":"Removed page=52ab5434-a1d9-4e29-893f-f6dfb25e25d4 from context=0fa6ca57-b746-4de4-9be0-73c5d69fcc9c page stack"}
+{"level":30,"time":"2026-03-20T16:16:18.986Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-20T16:16:18.998Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:18.998Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-20T16:16:29.072Z","pid":11568,"hostname":"LuanPChome","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-20T16:16:30.108Z","pid":11568,"hostname":"LuanPChome","msg":"End of node method closeAllBrowsers"}
