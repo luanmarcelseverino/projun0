@@ -1,4 +1,4 @@
-# Automação E2E com RobotFramework Primeiros Passos em Testes
+# RF-B: Automação de Fluxos Essenciais
 
 Este projeto demonstra a automação de um fluxo completo de compras em um e-commerce, utilizando práticas de gerenciamento de ambiente.
 
