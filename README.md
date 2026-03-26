@@ -1,6 +1,6 @@
 # Automação E2E - Sauce Demo
 
-Este projeto faz parte do meu portfólio de **Engenharia de Qualidade (QA)**. Ele demonstra a automação de um fluxo completo de compra (Happy Path) em um e-commerce, utilizando as melhores práticas de gerenciamento de ambiente.
+Este projeto demonstra a automação de um fluxo completo de compras em um e-commerce, utilizando práticas de gerenciamento de ambiente.
 
 ## Tecnologias Utilizadas
 * **Robot Framework**: Framework de automação baseado em Keywords.
@@ -15,7 +15,6 @@ Diferente de outras automações, este projeto utiliza:
 - **Teardown com Screenshot**: Evidência automática de cada execução, essencial para o dia a dia de um QA.
 
 ## Como Rodar o Projeto
-
 1. Certifique-se de ter o Python e o Node.js instalados.
 2. Instale o Poetry: `pip install poetry`
 3. Instale as dependências:
